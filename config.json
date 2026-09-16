@@ -72,6 +72,20 @@
           "type": "python"
         }
       ]
+    },
+    {
+      "id": "python-file-io-json",
+      "title": "Python File I/O and JSON",
+      "description": "Read and write files in Python and work with JSON data for small programs",
+      "path": "assignments/python-file-io-json",
+      "dueDate": "2026-09-23",
+      "attachments": [
+        {
+          "name": "Starter Code",
+          "file": "starter-code.py",
+          "type": "python"
+        }
+      ]
     }
   ]
 }

@@ -1,19 +1,37 @@
 
-# 🎮 Hangman Game Challenge
+# 📘 Assignment: Hangman Game Challenge
 
-Build the classic word-guessing game using Python strings, loops, and user input.
+## 🎯 Objective
 
-## � What You'll Build
+Build a classic Hangman game in Python using strings, loops, conditionals, and user input. This assignment helps you practice making interactive programs that respond to player choices and track game state.
 
-Create a Hangman game where players guess letters to reveal a hidden word before running out of attempts.
+## 📝 Tasks
 
-**Skills practiced:** String manipulation, loops, conditionals, random selection
+### 🛠️ Build the Hangman Game
 
-## ✅ Must Have's
+#### Description
+Create a word-guessing game where the player tries to guess letters in a hidden word before running out of chances. The program should keep track of guessed letters, remaining attempts, and the final outcome.
 
-Your game must:
-- Randomly select words from a predefined list
-- Accept letter guesses and show current progress (_ _ _ format)
-- Track incorrect guesses remaining
-- End when word is guessed or attempts exhausted
-- Display win/lose messages
+#### Requirements
+Completed program should:
+
+- Randomly choose a word from a predefined list of words
+- Display the current word progress using underscores or revealed letters, such as _ _ _
+- Accept single-letter guesses from the player and validate the input
+- Track incorrect guesses and update the remaining attempts
+- Reveal correctly guessed letters in the hidden word
+- End the game when the player wins or runs out of attempts
+- Print a clear win or lose message at the end of the game
+
+### 🛠️ Improve the Game Experience
+
+#### Description
+Add a few small but important features to make the game easier to play and understand. These improvements should make the program more interactive and user-friendly.
+
+#### Requirements
+Completed program should:
+
+- Prevent duplicate guesses from being counted twice
+- Show the letters already guessed so the player can track progress
+- Allow the game to continue with a new word after a round ends if desired
+- Keep the output clear and readable for the player
